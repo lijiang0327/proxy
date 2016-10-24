@@ -10,3 +10,5 @@ router.get('/', (req, res) => {
         res.status(200).end(body);
     });
 });
+
+module.exports = router;
