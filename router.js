@@ -12,7 +12,7 @@ router.all('*', (req, res) => {
     //     res.setHeader('contentType', 'text/html; charset=UTF-8');
     //     res.status(resp.statusCode).end(body);
     // });
-    request.get('https://www.baidu.com').pipe(res);
+    request.get('https://www.google.com').pipe(res);
 });
 
 module.exports = router;
